@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hillside AI Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION ADDED HERE -->
+<div class="nav">
+    <a href="index.html">Home</a> |
+    <a href="subjects.html">Subjects</a> |
+    <a href="demo.html">Demo</a> |
+    <a href="about.html">About</a>
+</div>
+
+<div class="header">
+    <img src="icon.png" class="logo">
+    <h1>Hillside AI</h1>
+</div>
+
+<div class="container">
+
+    <h2>Chat with Hillside AI</h2>
+
+    <div id="chatbox" class="chatbox">
+        <div class="ai-msg">Hello! Ask me anything.</div>
+    </div>
+
+    <input type="text" id="question" placeholder="Type your question...">
+
+    <button onclick="askAI()">Send</button>
+
+    <br><br>
+
+    <a href="index.html">Home</a>
+
+</div>
+
+<script src="ai.js"></script>
+
+</body>
+</html>
