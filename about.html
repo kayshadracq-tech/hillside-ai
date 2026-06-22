@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <img src="icon.png" class="logo">
+<h1>HillSide AI Demo</h1>
+</div>
+
+<div class="container">
+
+<button onclick="math()">Mathematics</button>
+
+<button onclick="science()">Science</button>
+
+<button onclick="computer()">Computer Studies</button>
+
+<div id="demo" class="chatbox">
+Click a subject.
+</div>
+
+<a href="index.html">Home</a>
+
+</div>
+
+<script>
+
+function math(){
+document.getElementById("demo").innerHTML=
+"Question: What is 5 × 6?<br><br>Answer: 30";
+}
+
+function science(){
+document.getElementById("demo").innerHTML=
+"Question: What is electricity?<br><br>Answer: Electricity is the flow of electric charge.";
+}
+
+function computer(){
+document.getElementById("demo").innerHTML=
+"Question: What is HTML?<br><br>Answer: HTML stands for HyperText Markup Language.";
+}
+
+</script>
+
+</body>
+</html>
