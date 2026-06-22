@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hillside AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <img src="icon.png" class="logo">
+    <h1>Hillside AI</h1>
+    <p>Offline Educational Assistant</p>
+</div>
+<div class="container">
+
+<h2>Welcome</h2>
+
+<p>
+Hillside AI is a simple offline educational assistant for learners.
+</p>
+
+<a href="chat.html" class="button">Start Chat</a>
+
+<h3>Features</h3>
+
+<ul>
+<li>Works Offline</li>
+<li>No Internet Required</li>
+<li>No API Required</li>
+<li>Simple Knowledge Base</li>
+</ul>
+
+</div>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+</body>
+</html>
