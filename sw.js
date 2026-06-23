@@ -1,4 +1,4 @@
-const CACHE_NAME = "hillside-ai-v1";
+const CACHE_NAME = "hillside-ai-v2";
 
 const FILES_TO_CACHE = [
   "index.html",
@@ -8,6 +8,7 @@ const FILES_TO_CACHE = [
   "about.html",
   "style.css",
   "ai.js"
+  "icon.png",
 ];
 
 // Install service worker
